@@ -285,7 +285,7 @@ p.sub-text {
 
 .divide80 {
   width: 100%;
-  height: 80px; }
+  height: 20px; }
 
 .divide85 {
   width: 100%;
@@ -358,7 +358,7 @@ p.sub-text {
   -moz-box-shadow: rgba(0, 0, 0, 0.11765) 0px 1px 3px;
   -ms-box-shadow: rgba(0, 0, 0, 0.11765) 0px 1px 3px;
   box-shadow: rgba(0, 0, 0, 0.11765) 0px 1px 3px;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: #0099FF;
   clear: both;
   -moz-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
@@ -366,7 +366,7 @@ p.sub-text {
   transition: all 0.4s ease-in-out; }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-  color: #4f82e9;
+  color: white;
   background-color: transparent; }
 
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
@@ -379,12 +379,13 @@ p.sub-text {
   font-size: 30px;
   line-height: 20px;
   font-style: normal;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin-top: -25px; }
 
 .navbar-default .navbar-nav > li > a {
-  color: #444;
+  color: white;
   font-weight: 600;
-  font-size: 13px;
+  font-size: 20px;
   letter-spacing: 0px;
   text-transform: uppercase;
   font-family: 'Raleway', sans-serif; }
@@ -393,7 +394,7 @@ p.sub-text {
   color: #4f82e9; }
 
 .navbar-brand img {
-  width: 80px;
+  width: 192px;
   height: auto; }
 
 /*============================*/
@@ -903,7 +904,9 @@ input[type="color"]:focus,
     line-height: 35px; } }
 /*flex slider*/
 .slider-reg {
-  width: 100%; }
+  height: 100%;
+  width: 100%;
+  position: relative; }
 
 @media (max-width: 767px) {
   .slider-reg.transparent-header-slider {
@@ -942,6 +945,8 @@ input[type="color"]:focus,
   background-image: url("../img/pattern.png");
   background-repeat: repeat;
   position: absolute;
+  height: auto;
+  width: auto;
   top: 0;
   left: 0;
   bottom: 0;
@@ -972,13 +977,13 @@ input[type="color"]:focus,
 
 @media (min-width: 1200px) {
   .slider-text {
-    margin-top: 250px; } }
+    margin-top: 150px; } }
 @media (max-width: 1024px) {
   .slider-text {
-    margin-top: 150px; } }
+    margin-top: 125px; } }
 @media (max-width: 768px) {
   .slider-text {
-    margin-top: 90px; }
+    margin-top: 50px; }
 
   .slider-text h1 {
     font-size: 2em; } }
